@@ -9,7 +9,6 @@ namespace TesteDeVariaveis
     {
         public static void Main()
         {
-            Console.WriteLine("Olá, Mundo!");// Mensagem inicial com quebra de linha
             Console.WriteLine("Teste de Variaveis");// Título do programa
             string nome = "Felipe";// Alterado para o meu nome
             int idade = 29;// Alterado para a minha idade
@@ -113,7 +112,7 @@ namespace TesteDeVariaveis
             {
                 Console.WriteLine("Menor de idade");// Verifica se a pessoa é menor de idade
             }
-            string cor = "vermelho";// Variável para cor
+            var cor = "vermelho";// Variável para cor
             switch (cor)
             {
                 case "vermelho":
