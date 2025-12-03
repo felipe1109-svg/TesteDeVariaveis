@@ -4,19 +4,19 @@ using System.Runtime.InteropServices.Marshalling;
 using System.Security.Cryptography.X509Certificates;
 
 namespace TesteDeVariaveis
-        {
+{
     public class Program
-        {
+    {
         public static void Main()
         {
             Console.WriteLine("Olá, Mundo!");// Mensagem inicial com quebra de linha
-Console.WriteLine("Teste de Variaveis");// Título do programa
-string nome = "Felipe";// Alterado para o meu nome
-int idade = 29;// Alterado para a minha idade
+            Console.WriteLine("Teste de Variaveis");// Título do programa
+            string nome = "Felipe";// Alterado para o meu nome
+            int idade = 29;// Alterado para a minha idade
             float float1= 71.5f;// Alterado para o meu peso (4bit)
             double double1= 1.75;// Alterado para a minha altura (8bit)
             decimal decimal1= 950.50m;// Valor decimal de exemplo (16bit)
-Console.WriteLine($"Meu nome é {nome}, minha idade é {idade} anos, meu peso é {float1} Kg e minha altura é {double1} metros");
+            Console.WriteLine($"Meu nome é {nome}, minha idade é {idade} anos, meu peso é {float1} Kg e minha altura é {double1} metros");
             Console.WriteLine($"Exemplo de valor decimal: R$ {decimal1}");// Exemplo de valor decimal, geralmente usado em valores de dinheiro
             bool isAdult = idade >= 18;// Verifica se a pessoa é maior de idade
             Console.WriteLine($"Sou maior de idade? {isAdult}");// Exibe se a pessoa é maior de idade
